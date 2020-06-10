@@ -1,0 +1,21 @@
+package gamebai;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ListQuanBai {
+	static Scanner ip = new Scanner(System.in);
+	public static ArrayList<QuanBai> inputInfor(){
+		ArrayList<QuanBai> list = new ArrayList<QuanBai>();
+		boolean cont = true;
+		int n;
+		do {
+			try {
+				
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+		} while (cont);
+		return list;
+	}
+}

@@ -1,0 +1,29 @@
+package gamebai;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ListQuanBai {
+	static Scanner ip = new Scanner(System.in);
+
+	public static ArrayList<QuanBai> inputInfor(){
+		ArrayList<QuanBai> list = new ArrayList<QuanBai>();
+		boolean cont = true;
+		int n;
+		do {
+			try {
+				System.out.println("Nhập thông tin quân bài: ");
+				n = Integer.parseInt(ip.nextLine());
+				if(n>52 || n<0) {
+					throw new NumberException("Vui lòng nhập giá trị trong khoản 0 ->52");
+				}
+				
+			} catch (Exception e) {
+				
+			}catch (NumberException e) {
+				System.out.println(e.getMessage());
+			}
+		} while (cont);
+		return list;
+	}
+}

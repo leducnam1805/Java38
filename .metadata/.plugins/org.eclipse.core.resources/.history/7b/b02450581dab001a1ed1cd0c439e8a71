@@ -1,0 +1,7 @@
+package gamebai;
+
+import java.util.Scanner;
+
+public class ListQuanBai {
+	static Scanner ip = new Scanner(System.in);
+}

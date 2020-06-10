@@ -1,0 +1,12 @@
+package gamebai;
+
+import java.util.ArrayList;
+
+public class QuanBaiDemo {
+
+	public static void main(String[] args) {
+		ArrayList<QuanBai> list = ListQuanBai.inputInfor();
+		ListQuanBai.DisplayData(list);
+	}
+
+}
