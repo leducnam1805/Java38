@@ -103,17 +103,25 @@ public class ListThiSinh {
 			}
 			if (dem > 0) {
 				for (ThiSinh thiSinh : list) {
-					if(thiSinh.tongDiem()>=17) {
+					if (thiSinh.tongDiem() >= 17) {
 						System.out.println("Danh Sach Thi Sinh Trúng Tuyển");
 						System.out.println(thiSinh);
 						System.out.println("=========");
 					}
 				}
-			}else {
+			} else {
 				System.out.println("Không có thí sinh trúng tuyển");
 			}
 		} else {
 			System.out.println("Không có thí sinh");
+		}
+	}
+
+	public static void sortThiSinh(ArrayList<ThiSinh> list) {
+		if (list.size() > 0) {
+
+		} else {
+			System.out.println("Không có dữ liệu.!");
 		}
 	}
 }
